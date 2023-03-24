@@ -9,7 +9,7 @@
     <title>Conversor de sistema numérico</title>
 </head>
 <header>
-    
+
     <div id="title">
         <h1>João's Machine</h1>
     </div>
@@ -23,16 +23,23 @@
 </header>
 
 <body>
+    <div class="container">
+        <div class="entrada">
+            <p>Insira o Número decimal para conversão:</p>
+            <input id="ipt_entrada" type="text">
+            <button id="btn_calcular">Calcular</button>
+        </div>
+    </div>
     <div class="box">
         <div class="container">
             <div class="card">
-                <textarea class="" name="" id="" cols="30" rows="10"></textarea>
+                <textarea placeholder="Octal:" id="" cols="30" rows="15" readonly></textarea>
             </div>
             <div class="card">
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <textarea placeholder="Hexadecimal:" id="" cols="30" rows="10" readonly></textarea>
             </div>
             <div class="card">
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <textarea placeholder="Binário:" id="" cols="30" rows="10" readonly></textarea>
             </div>
         </div>
     </div>

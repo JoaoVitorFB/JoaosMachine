@@ -18,7 +18,7 @@ header {
     height: 50px;
     align-items: center;
     width: 100%;
-    border-bottom: 5px #f4f3f2 solid;
+    border-bottom: 5px #ffffff solid;
 
 }
 
@@ -37,13 +37,13 @@ header {
     border-radius: 10px;
     font-family: 'Share Tech', sans-serif;
     font-size: 18px;
-    background-color: #f4f3f2;
+    background-color: #ffffff;
     color: black;
 }
 
 #title {
     margin: 20px;
-    color: #f4f3f2;
+    color: #ffffff;
     font-family: 'Press Start 2P', cursive;
     font-size: 13px;
 }
@@ -53,21 +53,58 @@ header {
     display: flex;
     margin: auto;
     
-    
 }
 
 .card{
     flex-direction: row;
     display: flex;
     width: 100%;
-    
-    
-
 }
 
 .container .card{
     display: flex;
     justify-content: center;
     
+}
+
+textarea{
+    resize: none;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgba(214, 32, 65, 1), rgba(46, 1, 142, 1)) 1;
+    
+}
+
+
+
+.entrada{
+    display: flex;
+    margin: auto;
+    color: #ffffff;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 20px;
+    align-items: center;
+}
+
+#ipt_entrada{
+    margin-left: 10px;
+    border-radius: 30px;
+    height: 30px;
+}
+
+#btn_calcular{
+    width: 80px;
+    height: 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Share Tech', sans-serif;
+    font-weight: bolder;
+    background-color: rgb(214, 32, 65);
+    font-size: 15px;
+    color: #ffffff;
     
 }
